@@ -8,6 +8,7 @@ const client = new Client({
         GatewayIntentBits.GuildMembers
     ]
 });
+const keep_alive = require('./keep_alive.js')
 
 let confessionCount = 1; // Biến toàn cục để lưu trữ số confession hiện tại
 
